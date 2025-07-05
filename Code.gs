@@ -1,5 +1,5 @@
 /**
- * A(I) Got This! AI Email Assistant : Automated Email Processing with Gemini AI
+ * (A)I Got This! AI Email Assistant : Automated Email Processing with Gemini AI
  * ================================================================
  *
  * This Google Apps Script automatically processes incoming emails using Google's Gemini AI.
