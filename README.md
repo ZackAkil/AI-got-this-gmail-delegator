@@ -4,7 +4,6 @@
 
 [![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-V8-blue?logo=google)](https://developers.google.com/apps-script)
 [![Gemini AI](https://img.shields.io/badge/Gemini%20AI-2.0%20Flash-orange?logo=google)](https://ai.google.dev/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## 🎯 What This Does
 
