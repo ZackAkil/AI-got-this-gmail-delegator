@@ -268,10 +268,6 @@ Track email processing with columns:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **Google Apps Script** for the platform
@@ -292,4 +288,4 @@ If you encounter issues:
 
 **Made with ❤️ by Zack Akil**
 
-_Your AI email assistant that actually gets it done! 🚀_
+_Your responsible AI email assistant that actually gets it done! 🚀_
