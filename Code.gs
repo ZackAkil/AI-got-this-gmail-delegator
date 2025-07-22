@@ -1,5 +1,5 @@
 /**
- * (A)I Got This! AI Email Assistant : Automated Email Processing with Gemini AI
+ * A(I) Got This! AI Email Assistant : Automated Email Processing with Gemini AI
  * ================================================================
  *
  * This Google Apps Script automatically processes incoming emails using Google's Gemini AI.
@@ -41,7 +41,7 @@
  * The unique ID of your Google Doc containing the knowledge base/context.
  * Find this in the URL of your Google Doc.
  */
-const CONTEXT_DOC_ID = "1D4agJcDptZy0_WxRgKtq-PsRSuIhPKnbqQ5t0";
+const CONTEXT_DOC_ID = "1D4agJcDptZy0_VVDcJRWxRgKtq-PsRSuIhPKnbqQ5t0";
 
 /**
  * Your personal writing style. Be descriptive.
@@ -60,7 +60,7 @@ Zack".`;
  * Create a new Google Sheet and copy its ID from the URL.
  * The sheet should have columns: Timestamp, Email Link, Subject, Sender, Label, Reasoning, Thread ID
  */
-const LOGGING_SHEET_ID = "1XophC3voJ6DO6yU6BULMGhTROurcbcKk"; // Replace with your actual sheet ID
+const LOGGING_SHEET_ID = "1XophC3vo1VCTV2iu3hsJ6DO6yU6BULMGhTROurcbcKk"; // Replace with your actual sheet ID
 
 // --- Gmail Label Names (change if you use different names) ---
 const NEW_EMAIL_LABEL_NAME = "🆕 New-Email";
@@ -354,11 +354,11 @@ function cleanupProcessLabels(thread, processLabels) {
 
     // Remove each process-related label if it exists on the thread
     processLabels.forEach((label) => {
-      if (label && thread.hasLabel(label)) {
+      // if (label && thread.hasLabel(label)) {
         thread.removeLabel(label);
         removedCount++;
-        console.log(`🧹 Removed process label: ${label.getName()}`);
-      }
+        // console.log(`🧹 Removed process label: ${label.getName()}`);
+      // }
     });
 
     if (removedCount > 0) {
