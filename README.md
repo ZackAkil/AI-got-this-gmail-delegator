@@ -284,7 +284,3 @@ If you encounter issues:
 4. Test with `testGemini()` function
 
 ---
-
-**Made with ❤️ by Zack Akil**
-
-_Your responsible AI email assistant that actually gets it done! 🚀_
