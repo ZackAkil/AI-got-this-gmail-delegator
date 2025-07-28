@@ -305,7 +305,7 @@ function createDraftReply(thread, originalMessage, draftBody) {
   // Convert plain text newlines to HTML <br> tags for proper formatting in Gmail
   const htmlBody = draftBody.replace(/\n/g, "<br>");
 
-  thread.createDraftReply("", {
+  thread.createDraftReplyAll("", {
     htmlBody: htmlBody,
   });
 }
